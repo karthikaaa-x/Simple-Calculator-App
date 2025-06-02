@@ -19,7 +19,7 @@ contract Calculator {
         else
             result/=num;
     }
-    function mulitply(uint256 num) public {
+    function multiply(uint256 num) public {
         result*=num;
     }
     function get() public view returns (uint256){
